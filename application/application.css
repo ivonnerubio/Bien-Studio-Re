@@ -1,0 +1,163 @@
+
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ 
+ .body{
+    font-family: Calibri, sans-serif;
+    
+   }
+   
+  .navbar-vertical {
+    display: none;
+  }
+  
+  
+  
+  .wrapper {
+    position: absolute;
+    margin-left: -370px;
+    margin-top: 40px;
+    transform: rotate(270deg) translate(0, -170px);
+    transform-origin: right bottom;
+    width: 600px;
+    font-size: 15px;
+  
+  }
+  
+  .wrapper a{
+    padding: 0px 16px;
+    text-decoration: none;
+    background: transparent;
+    color: gray;
+  }
+  
+  .wrapper a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 7%;
+    position: absolute;
+    background: gray;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  
+  .wrapper a:hover:after { 
+    width: 40%; 
+    left: 100px;
+  }
+  
+  
+  
+  
+  #logo{
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+    left: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .overlay { 
+    height: 100%; 
+    width: 100%; 
+    display: none; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-color: white; 
+    } 
+    
+  .overlay-content { 
+    position: relative; 
+    top: 25%;
+    width: 100%; 
+    text-align: center; 
+  } 
+    
+  
+  .overlay a { 
+    padding: 10px; 
+    text-decoration: none; 
+    font-size: 40px; 
+    color: black; 
+    display: block; 
+    transition: 0.3s; 
+  } 
+    
+  .overlay a:hover, .overlay a:focus { 
+    color: black; 
+    background-color: transparent;
+  } 
+    
+  .overlay .closebtn { 
+    position: absolute; 
+    top: -2px; 
+    right: 50px;
+    font-size: 40px; 
+    text-decoration: none;
+  } 
+          
+          
+          
+  #navbar-icon{
+    position: relative;
+    right: -260px;
+  }        
+  
+  
+  
+  
+  
+  
+  @media only screen and (min-width: 768px) {
+            
+    #navbar-icon{
+      position: relative;
+      right: -600px;
+    }      
+   
+   
+  }
+  
+  
+  
+  
+  
+  @media only screen and (min-width: 1000px) {
+  .navbar-vertical {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: calc(100% - 48px);
+  }
+  
+  }
+  
+  
+  
+  
