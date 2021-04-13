@@ -1,149 +1,194 @@
-<link rel="stylesheet" type="text/css" href="/css/about.css" />
 
-<div class = "whole">
+<head>
+    <title>Bien.Studio</title>
     
-    <div class = "top-header">
-      <h1><u>Bien</u> is a studio for design, growth and good ideas.</h1>
-    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="dist/hamburgers.css" rel="stylesheet">
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./resources/css/about.css" />
+    <!--NAVBAR-->
+    <a class="logo" href="/approaches"><img id = "logo" src = "https://cdn.dribbble.com/users/2853785/avatars/normal/4cfb298885928f4f999b81440820f97e.png?1553632546"></a>
+
+    <div id="myNav" class="overlay"> 
+        <a href="javascript:void(0)"
+            class="closebtn" onclick="closeNav()"> 
+        </a> 
+        <div class="overlay-content"> 
+          <a href="">Projects</a>
+          <a href="./about.html">Studio</a>
+          <a href="./approach.html">Approach</a>
+          <a href="./contact.html">Contact</a>
+          <a href="./notes.html">Notes</a>
+        </div> 
+    </div> 
+  
+    <span id = "navbar-icon" style="font-size:50px;cursor:pointer"
+            onclick="openNav()"> 
+        ≡ 
+    </span> 
     
-    <div class = "mid-pic">
-        <img id = "mid-pic" src = "https://bien.studio/wp-content/uploads/2020/11/studio-left.jpg">
-        <img id = "mid-pic2" src = "https://bien.studio/wp-content/uploads/2020/11/studio-right.jpg">
-    </div>
+    <script> 
+        function openNav() { 
+            document.getElementById( 
+                "myNav").style.display = "block";
+        } 
+  
+        function closeNav() { 
+            document.getElementById( 
+                "myNav").style.display = "none"; 
+        } 
+    </script> 
+  
+  
+  </head>
+  <body>
+    <div class = "whole">
     
-    <div class = "values">
-        <div class = "values-header">
-            <p>Our values</p>
+        <div class = "top-header">
+          <h1><u>Bien</u> is a studio for design, growth and good ideas.</h1>
         </div>
-        <div class = "values-text">
-            <h1>We don’t shy away from challenges.</h1>
-            <h1>Honesty and hard work spark great results.</h1>
-            <h1>We’re motivated by goals, not trends.</h1>
-            <h1>We like leaving and coming to work happy.</h1>
-            <h1>Emails are important, but food is essential.</h1>
+        
+        <div class = "mid-pic">
+            <img id = "mid-pic" src = "https://bien.studio/wp-content/uploads/2020/11/studio-left.jpg">
+            <img id = "mid-pic2" src = "https://bien.studio/wp-content/uploads/2020/11/studio-right.jpg">
+        </div>
+        
+        <div class = "values">
+            <div class = "values-header">
+                <p>Our values</p>
+            </div>
+            <div class = "values-text">
+                <h1>We don’t shy away from challenges.</h1>
+                <h1>Honesty and hard work spark great results.</h1>
+                <h1>We’re motivated by goals, not trends.</h1>
+                <h1>We like leaving and coming to work happy.</h1>
+                <h1>Emails are important, but food is essential.</h1>
+            </div>
+            
+        </div>
+        
+        
+        <div class = "clients">
+            <p>Selected clients</p>
+            <img id = "client-logo" src = "https://cdn.freebiesupply.com/logos/large/2x/ted-2-logo-black-and-white.png">
+            <img id = "client-logo2" src = "https://99designs-blog.imgix.net/blog/wp-content/uploads/2020/12/1200px-Feeding_America_logo.svg.png?auto=format&q=60&fit=max&w=930">
+            <img id = "client-logo3" src = "https://www.tailorbrands.com/wp-content/uploads/2019/09/Flora.png">
+            <img id = "client-logo4" src = "https://www.tailorbrands.com/wp-content/uploads/2020/03/Tailor-brands-White-transparent.png">
+            <img id = "client-logo5" src = "https://lh5.googleusercontent.com/C-RjlDlxmdtKOvHXBiWK6X9MLucaC-a3vjrGkjySWeOtIaIR-48yVNJfCltsxjaUVlEZOaK4zJGw3tKHUBZEQShW2elqHV0i2JS7VPJmW2sxtqh338gr6395LsbyuZ4x-7R0MydR">
+            <img id = "client-logo6" src = "https://www.tailorbrands.com/wp-content/uploads/2020/12/NY-Title-Eng-.png">
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class = "team">
+            <div class = "team-index">
+                <h1 id = "team-header">Our team</h1>
+                <div class = "team-card">
+                    <img alt="Card Back" src = "https://bien.studio/wp-content/uploads/2020/11/anja-new.jpg">
+                    <img class="img-top" alt="Card Front" src = "https://bien.studio/wp-content/uploads/2020/11/anja-alternate-768x940.jpg">
+                    <div class = "card-text">
+                        <h1>Anja Grgić</h1>
+                        <p>Project Manager</p>
+                        <h2>anja@bien.studio</h2>
+                    </div>
+                </div>
+                <div class = "team-card">
+                    <img alt="Card Back" src = "https://bien.studio/wp-content/uploads/2020/11/ivan-bjelajac.jpg">
+                    <img class="img-top" alt="Card Front" src = "https://bien.studio/wp-content/uploads/2020/11/ivan-alternate.jpg">
+                    <div class = "card-text">
+                        <h1>Ivan Bjelajac</h1>
+                        <p>Co-Founder, Designer</p>
+                        <h2>ivan@bien.studio</h2>
+                    </div>
+                </div> 
+                <div class = "team-card">
+                    <img alt="Card Back" src = "https://bien.studio/wp-content/uploads/2020/11/matija-jandric.jpg">
+                    <img class="img-top" alt="Card Front" src = "https://bien.studio/wp-content/uploads/2020/11/matija-alternate.jpg">
+                    <div class = "card-text">
+                        <h1>Matija Jandrić</h1>
+                        <p>Designer</p>
+                        <h2>tija@bien.studio</h2>
+                    </div>
+                </div>
+                <div class = "team-card">
+                    <img alt="Card Back" src = "https://bien.studio/wp-content/uploads/2020/11/luka-marcec.jpg">
+                    <img class="img-top" alt="Card Front" src = "https://bien.studio/wp-content/uploads/2020/11/luka-alternate.jpg">
+                    <div class = "card-text">
+                        <h1>Luka Marčec</h1>
+                        <p>Designer</p>
+                        <h2>luka.marcec@bien.studio</h2>
+                    </div>
+                </div>
+                <div class = "team-card">
+                    <img alt="Card Back" src = "https://bien.studio/wp-content/uploads/2020/11/luka-peric.jpg">
+                    <img class="img-top" alt="Card Front" src = "https://bien.studio/wp-content/uploads/2020/11/luka-p-alternate.jpg">
+                    <div class = "card-text">
+                        <h1>Luka Perić</h1>
+                        <p>Co-Founder</p>
+                        <h2>luka@bien.studio</h2>
+                    </div>
+                </div>
+                <div class = "team-card">
+                    <img alt="Card Back" src = "https://bien.studio/wp-content/uploads/2020/11/mihael-miklosic.jpg">
+                    <img class="img-top" alt="Card Front" src = "https://bien.studio/wp-content/uploads/2020/11/mihael-alternate.jpg">
+                    <div class = "card-text">
+                        <h1>Mihael Miklošić</h1>
+                        <p>Designer</p>
+                        <h2>mihael@bien.studio</h2>
+                    </div>
+                </div>
+                <div class = "team-card">
+                    <img alt="Card Back" src = "https://bien.studio/wp-content/uploads/2020/11/silvia-marincic.jpg">
+                    <img class="img-top" alt="Card Front" src = "https://bien.studio/wp-content/uploads/2020/11/silvia-alternate.jpg">
+                    <div class = "card-text">
+                        <h1>Silvia Marinčić</h1>
+                        <p>Designer</p>
+                        <h2>silvia@bien.studio</h2>
+                    </div>
+                </div>
+            </div>
         </div>
         
     </div>
     
     
-    <div class = "clients">
-        <p>Selected clients</p>
-        <img id = "client-logo" src = "https://cdn.freebiesupply.com/logos/large/2x/ted-2-logo-black-and-white.png">
-        <img id = "client-logo2" src = "https://99designs-blog.imgix.net/blog/wp-content/uploads/2020/12/1200px-Feeding_America_logo.svg.png?auto=format&q=60&fit=max&w=930">
-        <img id = "client-logo3" src = "https://www.tailorbrands.com/wp-content/uploads/2019/09/Flora.png">
-        <img id = "client-logo4" src = "https://www.tailorbrands.com/wp-content/uploads/2020/03/Tailor-brands-White-transparent.png">
-        <img id = "client-logo5" src = "https://lh5.googleusercontent.com/C-RjlDlxmdtKOvHXBiWK6X9MLucaC-a3vjrGkjySWeOtIaIR-48yVNJfCltsxjaUVlEZOaK4zJGw3tKHUBZEQShW2elqHV0i2JS7VPJmW2sxtqh338gr6395LsbyuZ4x-7R0MydR">
-        <img id = "client-logo6" src = "https://www.tailorbrands.com/wp-content/uploads/2020/12/NY-Title-Eng-.png">
-    </div>
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div class = "team">
-        <div class = "team-index">
-            <h1 id = "team-header">Our team</h1>
-            <div class = "team-card">
-                <img alt="Card Back" src = "https://bien.studio/wp-content/uploads/2020/11/anja-new.jpg">
-                <img class="img-top" alt="Card Front" src = "https://bien.studio/wp-content/uploads/2020/11/anja-alternate-768x940.jpg">
-                <div class = "card-text">
-                    <h1>Anja Grgić</h1>
-                    <p>Project Manager</p>
-                    <h2>anja@bien.studio</h2>
-                </div>
+    <div class = "work-togethers">
+        <div class = "content">
+            <h1 id = "header" >Let's work together</h1>
+            <div class = "email">
+                <h2>Business inquiries / Contact</h2>
+                <a target = "_blank" href = "mailto: hello@bien.studio">hello@bien.studio</a>
             </div>
-            <div class = "team-card">
-                <img alt="Card Back" src = "https://bien.studio/wp-content/uploads/2020/11/ivan-bjelajac.jpg">
-                <img class="img-top" alt="Card Front" src = "https://bien.studio/wp-content/uploads/2020/11/ivan-alternate.jpg">
-                <div class = "card-text">
-                    <h1>Ivan Bjelajac</h1>
-                    <p>Co-Founder, Designer</p>
-                    <h2>ivan@bien.studio</h2>
-                </div>
-            </div> 
-            <div class = "team-card">
-                <img alt="Card Back" src = "https://bien.studio/wp-content/uploads/2020/11/matija-jandric.jpg">
-                <img class="img-top" alt="Card Front" src = "https://bien.studio/wp-content/uploads/2020/11/matija-alternate.jpg">
-                <div class = "card-text">
-                    <h1>Matija Jandrić</h1>
-                    <p>Designer</p>
-                    <h2>tija@bien.studio</h2>
-                </div>
+            <div class = "social-media">
+                <h2>Follow us on</h2>
+                <a target = "_blank" href = "https://www.instagram.com/studiobien/">Instagram 
+                </a>
             </div>
-            <div class = "team-card">
-                <img alt="Card Back" src = "https://bien.studio/wp-content/uploads/2020/11/luka-marcec.jpg">
-                <img class="img-top" alt="Card Front" src = "https://bien.studio/wp-content/uploads/2020/11/luka-alternate.jpg">
-                <div class = "card-text">
-                    <h1>Luka Marčec</h1>
-                    <p>Designer</p>
-                    <h2>luka.marcec@bien.studio</h2>
-                </div>
+            <div class = "social-media">
+                <h2>Keep up with stuff on</h2>
+                <a target = "_blank" href = "https://m.facebook.com/Bien.design.studio/">Facebook 
+                </a>
             </div>
-            <div class = "team-card">
-                <img alt="Card Back" src = "https://bien.studio/wp-content/uploads/2020/11/luka-peric.jpg">
-                <img class="img-top" alt="Card Front" src = "https://bien.studio/wp-content/uploads/2020/11/luka-p-alternate.jpg">
-                <div class = "card-text">
-                    <h1>Luka Perić</h1>
-                    <p>Co-Founder</p>
-                    <h2>luka@bien.studio</h2>
-                </div>
+            <div class = "social-media">
+                <h2>Check out our work on</h2>
+                <a target = "_blank" href = "https://dribbble.com/bien">Dribbble
+                </a>
             </div>
-            <div class = "team-card">
-                <img alt="Card Back" src = "https://bien.studio/wp-content/uploads/2020/11/mihael-miklosic.jpg">
-                <img class="img-top" alt="Card Front" src = "https://bien.studio/wp-content/uploads/2020/11/mihael-alternate.jpg">
-                <div class = "card-text">
-                    <h1>Mihael Miklošić</h1>
-                    <p>Designer</p>
-                    <h2>mihael@bien.studio</h2>
+            <div class = "social-media">
+                <h2>Office address</h2>
+                <a target = "_blank" href = "https://www.google.com/maps/place/Bien/@45.8043327,15.9905167,16z/data=!4m5!3m4!1s0x4765d79ba4b63ebd:0xe18abf733af11b5f!8m2!3d45.8081754!4d15.9847865?shorturl=1">Kneza Mislava 4, Zagreb, Croatia
+                </a>
                 </div>
-            </div>
-            <div class = "team-card">
-                <img alt="Card Back" src = "https://bien.studio/wp-content/uploads/2020/11/silvia-marincic.jpg">
-                <img class="img-top" alt="Card Front" src = "https://bien.studio/wp-content/uploads/2020/11/silvia-alternate.jpg">
-                <div class = "card-text">
-                    <h1>Silvia Marinčić</h1>
-                    <p>Designer</p>
-                    <h2>silvia@bien.studio</h2>
-                </div>
-            </div>
         </div>
     </div>
-    
-</div>
-
-
-
-<div class = "work-togethers">
-    <div class = "content">
-        <h1 id = "header" >Let's work together</h1>
-        <div class = "email">
-            <h2>Business inquiries / Contact</h2>
-            <a target = "_blank" href = "mailto: hello@bien.studio">hello@bien.studio</a>
-        </div>
-        <div class = "social-media">
-            <h2>Follow us on</h2>
-            <a target = "_blank" href = "https://www.instagram.com/studiobien/">Instagram 
-            </a>
-        </div>
-        <div class = "social-media">
-            <h2>Keep up with stuff on</h2>
-            <a target = "_blank" href = "https://m.facebook.com/Bien.design.studio/">Facebook 
-            </a>
-        </div>
-        <div class = "social-media">
-            <h2>Check out our work on</h2>
-            <a target = "_blank" href = "https://dribbble.com/bien">Dribbble
-            </a>
-        </div>
-        <div class = "social-media">
-            <h2>Office address</h2>
-            <a target = "_blank" href = "https://www.google.com/maps/place/Bien/@45.8043327,15.9905167,16z/data=!4m5!3m4!1s0x4765d79ba4b63ebd:0xe18abf733af11b5f!8m2!3d45.8081754!4d15.9847865?shorturl=1">Kneza Mislava 4, Zagreb, Croatia
-            </a>
-            </div>
-    </div>
-</div>
+  </body>

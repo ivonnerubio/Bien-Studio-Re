@@ -1,126 +1,171 @@
-<link rel="stylesheet" type="text/css" href="/css/approaches.css" />
 
-<div class = "top">
-  <h1>We design great products that have long lasting value.</h1>
-  <p id = "top-p">In order to make the world a slightly better place.</p>
-</div>
-
-<div class = "mid-pic">
-    <img src = "https://bien.studio/wp-content/uploads/2020/11/bien-team.jpg">
-</div>
-
-<div class = "mid-text">
-    <h2>Bien is <u>7 people</u> that are</h2>
-    <h3>Innovative</h3>
-    <h3>Creative</h3>
-    <h3>Passionate</h3>
-</div>
-
-
-<div class = "mid-pic-2">
-    <img src = "https://bien.studio/wp-content/uploads/2020/11/animacija-bw.gif">
-</div>
-
-<div class = "mid-text-2">
-    <div class = "top">
-        <h2>We've helped teams with</h2>
-    </div>
-    <div class = "bottom">
-        <div class = "point">
-            <h3>Improving existing products</h3>
-            <h4>We worked with already established companies that need continuous and dedicated work on existing features and redesigns of certain modules with legacy in mind.</h4>
-        </div>
-        <div class = "point">
-            <h3>Launching startups</h3>
-            <h4>We’ve branded and confirmed ideas through design loops before launching MVP’s. We’ve been able to help launch a number of startups from scratch.</h4>
-        </div>
-        <div class = "point">
-            <h3>Product consulting</h3>
-            <h4>We used our expertise in user experience to deliver unbiased reviews of digital products already on the market, along with those not yet launched.</h4>
-        </div>
-    </div>
+<head>
+    <title>Bien.Studio</title>
     
-</div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="dist/hamburgers.css" rel="stylesheet">
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./resources/css/approaches.css" />
+    <!--NAVBAR-->
+    <a class="logo" href="/approaches"><img id = "logo" src = "https://cdn.dribbble.com/users/2853785/avatars/normal/4cfb298885928f4f999b81440820f97e.png?1553632546"></a>
 
-<div class = "services">
-    <div class = "services-header">
-        <h1>Our services</h1>
-    </div>
-    <div class = "category">
-        <h2>Brand</h2>
-        <h1>Positioning</h1>
-        <h1>Visual identity</h1>
-        <h1>Guidelines</h1>
-        <h1>Naming</h1>
-        <h1>Animation</h1>
-    </div>
-    <div class = "category">
-        <h2>Product design</h2>
-        <h1>User experience design</h1>
-        <h1>Design systems</h1>
-        <h1>Prototyping</h1>
-        <h1>Feature ideation</h1>
-        <h1>User interface design</h1>
-        <h1>Service design</h1>
-    </div>
-    <div class = "category">
-        <h2>Strategy</h2>
-        <h1>Design sprint workshops</h1>
-        <h1>Product analysis</h1>
-        <h1>User stories</h1>
-    </div>
-    <div class = "category">
-        <h2>Engineering</h2>
-        <h1>Web development</h1>
-        <h1>Quality assurance</h1>
-        <h1>CMS integration</h1>
-    </div>
-    <div class = "category">
-        <h2>Other skills</h2>
-        <h1>Exotic cuisine tasting</h1>
-        <h1>Car customisation</h1>
-        <h1>Kite flying</h1>
-        <h1>Bike restoration</h1>
-        <h1>Juggling</h1>
-        <h1>Dog walking</h1>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-<div class = "work-togethers">
-    <div class = "content">
-        <h1 id = "header" >Let's work together</h1>
-        <div class = "email">
-            <h2>Business inquiries / Contact</h2>
-            <a target = "_blank" href = "mailto: hello@bien.studio">hello@bien.studio</a>
-        </div>
-        <div class = "social-media">
-            <h2>Follow us on</h2>
-            <a target = "_blank" href = "https://www.instagram.com/studiobien/">Instagram 
-            </a>
-        </div>
-        <div class = "social-media">
-            <h2>Keep up with stuff on</h2>
-            <a target = "_blank" href = "https://m.facebook.com/Bien.design.studio/">Facebook 
-            </a>
-        </div>
-        <div class = "social-media">
-            <h2>Check out our work on</h2>
-            <a target = "_blank" href = "https://dribbble.com/bien">Dribbble
-            </a>
-        </div>
-        <div class = "social-media">
-            <h2>Office address</h2>
-            <a target = "_blank" href = "https://www.google.com/maps/place/Bien/@45.8043327,15.9905167,16z/data=!4m5!3m4!1s0x4765d79ba4b63ebd:0xe18abf733af11b5f!8m2!3d45.8081754!4d15.9847865?shorturl=1">Kneza Mislava 4, Zagreb, Croatia
-            </a>
-            </div>
-    </div>
-</div>
+    <div id="myNav" class="overlay"> 
+        <a href="javascript:void(0)"
+            class="closebtn" onclick="closeNav()"> 
+        </a> 
+        <div class="overlay-content"> 
+          <a href="">Projects</a>
+          <a href="./about.html">Studio</a>
+          <a href="./approach.html">Approach</a>
+          <a href="./contact.html">Contact</a>
+          <a href="./notes.html">Notes</a>
+        </div> 
+    </div> 
+  
+    <span id = "navbar-icon" style="font-size:50px;cursor:pointer"
+            onclick="openNav()"> 
+        ≡ 
+    </span> 
+    
+    <script> 
+        function openNav() { 
+            document.getElementById( 
+                "myNav").style.display = "block";
+        } 
+  
+        function closeNav() { 
+            document.getElementById( 
+                "myNav").style.display = "none"; 
+        } 
+    </script> 
+  
+  
+  </head>
+  <body>
+    <div class = "top">
+        <h1>We design great products that have long lasting value.</h1>
+        <p id = "top-p">In order to make the world a slightly better place.</p>
+      </div>
+      
+      <div class = "mid-pic">
+          <img src = "https://bien.studio/wp-content/uploads/2020/11/bien-team.jpg">
+      </div>
+      
+      <div class = "mid-text">
+          <h2>Bien is <u>7 people</u> that are</h2>
+          <h3>Innovative</h3>
+          <h3>Creative</h3>
+          <h3>Passionate</h3>
+      </div>
+      
+      
+      <div class = "mid-pic-2">
+          <img src = "https://bien.studio/wp-content/uploads/2020/11/animacija-bw.gif">
+      </div>
+      
+      <div class = "mid-text-2">
+          <div class = "top">
+              <h2>We've helped teams with</h2>
+          </div>
+          <div class = "bottom">
+              <div class = "point">
+                  <h3>Improving existing products</h3>
+                  <h4>We worked with already established companies that need continuous and dedicated work on existing features and redesigns of certain modules with legacy in mind.</h4>
+              </div>
+              <div class = "point">
+                  <h3>Launching startups</h3>
+                  <h4>We’ve branded and confirmed ideas through design loops before launching MVP’s. We’ve been able to help launch a number of startups from scratch.</h4>
+              </div>
+              <div class = "point">
+                  <h3>Product consulting</h3>
+                  <h4>We used our expertise in user experience to deliver unbiased reviews of digital products already on the market, along with those not yet launched.</h4>
+              </div>
+          </div>
+          
+      </div>
+      
+      
+      <div class = "services">
+          <div class = "services-header">
+              <h1>Our services</h1>
+          </div>
+          <div class = "category">
+              <h2>Brand</h2>
+              <h1>Positioning</h1>
+              <h1>Visual identity</h1>
+              <h1>Guidelines</h1>
+              <h1>Naming</h1>
+              <h1>Animation</h1>
+          </div>
+          <div class = "category">
+              <h2>Product design</h2>
+              <h1>User experience design</h1>
+              <h1>Design systems</h1>
+              <h1>Prototyping</h1>
+              <h1>Feature ideation</h1>
+              <h1>User interface design</h1>
+              <h1>Service design</h1>
+          </div>
+          <div class = "category">
+              <h2>Strategy</h2>
+              <h1>Design sprint workshops</h1>
+              <h1>Product analysis</h1>
+              <h1>User stories</h1>
+          </div>
+          <div class = "category">
+              <h2>Engineering</h2>
+              <h1>Web development</h1>
+              <h1>Quality assurance</h1>
+              <h1>CMS integration</h1>
+          </div>
+          <div class = "category">
+              <h2>Other skills</h2>
+              <h1>Exotic cuisine tasting</h1>
+              <h1>Car customisation</h1>
+              <h1>Kite flying</h1>
+              <h1>Bike restoration</h1>
+              <h1>Juggling</h1>
+              <h1>Dog walking</h1>
+          </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class = "work-togethers">
+          <div class = "content">
+              <h1 id = "header" >Let's work together</h1>
+              <div class = "email">
+                  <h2>Business inquiries / Contact</h2>
+                  <a target = "_blank" href = "mailto: hello@bien.studio">hello@bien.studio</a>
+              </div>
+              <div class = "social-media">
+                  <h2>Follow us on</h2>
+                  <a target = "_blank" href = "https://www.instagram.com/studiobien/">Instagram 
+                  </a>
+              </div>
+              <div class = "social-media">
+                  <h2>Keep up with stuff on</h2>
+                  <a target = "_blank" href = "https://m.facebook.com/Bien.design.studio/">Facebook 
+                  </a>
+              </div>
+              <div class = "social-media">
+                  <h2>Check out our work on</h2>
+                  <a target = "_blank" href = "https://dribbble.com/bien">Dribbble
+                  </a>
+              </div>
+              <div class = "social-media">
+                  <h2>Office address</h2>
+                  <a target = "_blank" href = "https://www.google.com/maps/place/Bien/@45.8043327,15.9905167,16z/data=!4m5!3m4!1s0x4765d79ba4b63ebd:0xe18abf733af11b5f!8m2!3d45.8081754!4d15.9847865?shorturl=1">Kneza Mislava 4, Zagreb, Croatia
+                  </a>
+                  </div>
+          </div>
+      </div>
+  </body>

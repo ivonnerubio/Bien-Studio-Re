@@ -1,13 +1,5 @@
-// Place all the styles related to the abouts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
 
-// Place all the styles related to the abouts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
-
-.whole{
+body{
 background-color: #121212;
 height: auto;
 
@@ -16,6 +8,7 @@ height: auto;
 
 .top-header{
     padding: 83px 26px 0px;
+    background-color: #121212;
     position: center;
     height: 176px;
 
